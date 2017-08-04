@@ -1,0 +1,181 @@
+html {
+background-color: black;
+font-size: 22px;
+color: white;
+font-family: Helvetica;
+opacity: 0.9;
+}
+body {
+  margin: 0;
+  padding: 0px;
+}
+img {
+  height: auto;
+  width: auto;
+}
+
+.Header {
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+  display: inline;
+}
+.Header img{
+  background-position: left;
+  background-size: contain;
+  height: 50px;
+  margin: 10px;
+  width: auto;
+}
+.Header ul{
+text-align: right;
+color: white;
+display: inline;
+text-decoration: underline;
+height: auto;
+width: auto;
+float: right;
+margin-right: 20px;
+
+}
+.Header a{
+  margin-left: 20px;
+  color: white;
+}
+
+/* Mission Page Section*/
+
+.Missiontitle{
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+height: 700px;
+width: 1200px;
+display: block;
+margin: auto;
+}
+.Missiontitle h2{
+background-color: black;
+text-align: center;
+position: absolute;
+left: 0;
+top: 30%;
+width: 100%;
+}
+.Missiontitle h4{
+background-color: black;
+text-align: center;
+position: absolute;
+left: 0;
+top: 33.4%;
+width: 100%;
+}
+.Month{
+  text-align: center;
+}
+.Images1 ul{
+ text-align: center;
+}
+.Images1 img{
+  width: 300px;
+  height: 200px;
+  display: inline;
+  margin-right: 20px;
+}
+.Text1 a{
+  text-align: center;
+  display: inline;
+  margin-left: 60px;
+  margin-right: 80px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.Images2{
+  text-align: center;
+    margin: auto;
+}
+.Images2 img{
+  width: 300px;
+  height: 200px;
+  display: inline;
+  margin-right: 20px;
+}
+.Text2 a{
+  text-align: center;
+  display: inline;
+  align-items: center;
+  margin-right: 70px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+/*Location Page Section*/
+
+/*Background Image for Locations*/
+
+.LocationImg{
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+height: 600px;
+width: 1200px;
+display: block;
+padding: 0px;
+margin: auto;
+}
+/*Location Heading text*/
+
+#LocationsHead{
+  text-align: center;
+  padding-top: 50px;
+}
+#Downtown {
+text-align: center;
+background-color: black;
+height:250px;
+width: 300px;
+float: left;
+margin-left: 60px;
+margin-top: 13px;
+margin-bottom: -21%;
+opacity: 1;
+}
+
+#Bay {
+text-align: center;
+height: 250px;
+width: 300px;
+background-color: black;
+clear:left;
+margin-top: -20%;
+margin-left: 38%;
+margin-right: 40;
+margin-bottom: 30%;
+opacity: 1;
+}
+
+#Oakdale {
+text-align: center;
+height:250px;
+width: 300px;
+float: right;
+background-color: black;
+margin-right: 60px;
+margin-bottom: -10px;
+margin-top: -50.8%;
+margin-bottom: 50%;
+}
+
+
+/*Contact Page Section*/
+.footer h2 {
+  text-align: center;
+}
+.footer h5 {
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+#copyright{
+  margin-left: 10px;
+}
